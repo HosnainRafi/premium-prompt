@@ -6,7 +6,7 @@ import "./App.css";
 import ChatMessage from "./components/ChatMessage";
 import ChatInput from "./components/ChatInput";
 
-const API_URL = "http://localhost:5000/api/prompt";
+const API_URL = "https://premium-prompt-server.vercel.app/api/prompt";
 
 function App() {
   const [messages, setMessages] = useState([]);
